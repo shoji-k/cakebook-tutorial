@@ -20,3 +20,9 @@ array('controller' => 'posts', 'action' => 'view', $post['Post']['id'])); ?>
     <?php endforeach; ?>
     <?php unset($post); ?>
 </table>
+<?php
+echo $this->Html->link(
+    'Add Post',
+    array('controller' => 'posts', 'action' => 'add')
+);
+?>

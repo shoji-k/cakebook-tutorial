@@ -1,0 +1,10 @@
+2015-02-01 14:35:02 Error: Fatal Error (4): syntax error, unexpected '?>', expecting ']' in [/vagrant/cake-tutorial/View/Posts/index.ctp, line 28]
+2015-02-01 14:35:02 Error: [FatalErrorException] syntax error, unexpected '?>', expecting ']'
+Request URL: /cakephp-tutorial/posts/
+Stack Trace:
+#0 /vagrant/cake-tutorial/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/cake-t...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/cake-t...', 28, Array)
+#2 /vagrant/cake-tutorial/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/cake-t...', 28, Array)
+#3 /vagrant/cake-tutorial/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
