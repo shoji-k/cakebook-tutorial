@@ -8,6 +8,8 @@
     ],
     "config": {
         "vendor-dir": "Vendor"
+    },
+    "require": {
+        "cakephp/cakephp": "2.5.*"
     }
-    "require": {}
 }
