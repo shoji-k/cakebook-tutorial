@@ -1,0 +1,10 @@
+{
+    "name": "shojik/cake-tutorial",
+    "authors": [
+        {
+            "name": "shojik",
+            "email": "shoji.kobayashi.0125@gmail.com"
+        }
+    ],
+    "require": {}
+}
